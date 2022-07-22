@@ -41,11 +41,11 @@ namespace SOLID
     // The solution to this is simple: create interfaces that match the needs of the inheriting class.
     public interface Predator
     {
-        void Carnivarous();
+        public void Carnivarous();
     }
 
-    public interface Mamal
+    public interface Mammal
     {
-        void Herbivorous();
+        public void Herbivorous();
     }
 }
